@@ -47,7 +47,7 @@
 body,
 html {
   background-color: #001025;
-  width: 1920px;
+  width: 100%;
 }
 
 .container {
@@ -110,19 +110,18 @@ html {
 }
 
 .content-box {
-  padding: 60px 80px;
-  max-width: 800px;
-  margin-top: 247px;
+  position: absolute;
+  width: 976px;
+  top: 247px;
 }
 
 .content-box h1 {
   font-size: 64px;
-  margin-bottom: 15px;
 }
 
 .content-box p {
+  margin: 32px auto;
   font-size: 20px;
-  margin-bottom: 30px;
 }
 
 .btn {
@@ -365,13 +364,17 @@ html {
   gap: 32px;
 }
 
+.profile-box {
+  max-width: 880px;
+}
+
 .profile-box h1 {
   margin: 8px 0 22px 0;
 }
 
 .system {
   width: 80%;
-  margin: 86px auto;
+  margin: 160px auto;
   color: white;
   text-align: center;
 }
@@ -434,7 +437,7 @@ html {
 .membership {
   width: 90%;
   color: white;
-  margin: 182px auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -465,6 +468,12 @@ html {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  margin: 0 0 24px 0;
+}
+
+.donation-header h1 {
+  color: #44c5ff;
+  text-transform: uppercase;
 }
 
 .level {
@@ -474,7 +483,7 @@ html {
 }
 
 .options {
-  margin-top: 16px;
+  margin: 8px 0;
   display: flex;
   align-items: center;
   gap: 4px;
@@ -491,7 +500,7 @@ html {
   background-color: #00172d;
   padding: 32px;
   width: 832px;
-  margin: 86px auto;
+  margin: 160px auto;
   color: white;
   text-align: center;
   border-radius: 24px;
